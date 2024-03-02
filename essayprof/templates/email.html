@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div style="display: flex; flex-direction: column; gap: 2px; font-size: medium;">
+
+    <p>Type of service:  {{context.service}}</p>
+    <br>
+    <br>
+    <p>sender:  <a href="mailto:{{context.email}}">{{context.email}}</a></p>
+    <br>
+    <br>
+    <p>pages:  {{context.page}}</p>
+    <br>
+    <br>
+    <p>instructions shared : {{context.instructions}}</p>
+    <br>
+    <br>
+    <p>Deadline information: {{context.deadline}}</p>
+    <br>
+    <p>Deadline information: {{context.assignmentsLanguage}}</p>
+</div>
+    
+</body>
+</html>

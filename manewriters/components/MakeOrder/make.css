@@ -1,0 +1,19 @@
+input:user-invalid {
+    border: 2px solid red;
+}
+
+input:user-invalid+span::before {
+    content: "✖";
+    color: red;
+}
+
+
+
+input:user-valid {
+    border: 2px solid green;
+}
+
+input:user-valid+span::before {
+    content: "✓";
+    color: green;
+}
